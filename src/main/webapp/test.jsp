@@ -4,5 +4,5 @@
 <%
 	Calendar rightNow = Calendar.getInstance();
 
-	out.print(rightNow);
+	out.print(rightNow.getTime());
 %>
