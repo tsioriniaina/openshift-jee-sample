@@ -1,8 +1,10 @@
 <%@ page import="java.util.*" %>
+<%@ page import="em.Em" %>
 
 
 <%
 	Calendar rightNow = Calendar.getInstance();
 
-	out.print(rightNow.getTime());
+	out.print(Em.test);
+
 %>
